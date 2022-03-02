@@ -1,0 +1,26 @@
+li {
+    font-size: 14px;
+    border-radius: 8px;
+    padding: 8px;
+    color: #0e0e0e;
+
+    span:first-of-type {
+        font-weight: bold;
+    }
+
+    li + & {
+        margin-top: 8px;
+    }
+}
+
+.info {
+    background-color: #bde0fe;    
+}
+
+.warn {
+    background-color: #bb3e03;
+}
+
+.success {
+    background-color: #0a9396;
+}

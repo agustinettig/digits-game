@@ -1,0 +1,82 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.selected-numbers {
+    margin: 32px;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+
+    span {
+        width: 65px;
+        height: 55px;
+        background-color: #eee;
+        color: #0e0e0e;
+        border: none;
+        border-radius: 8px;
+        margin: 0 16px;
+        padding: 8px 24px;
+    }
+}
+
+.number-grid {
+    width: 100%;
+    max-width: 450px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 8px;
+    padding: 10px;
+    
+    button {
+        background-color: #457B9D;
+        border: none;
+        border-radius: 8px;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        font-size: 24px;
+        cursor: pointer;
+
+    }
+
+    .selected {
+        background-color: #1D3557;
+    }
+}
+
+ul {
+    margin: 16px;
+    width: 100%;
+    max-width: 480px;
+    font-size: 12px;
+    list-style: none
+}
+
+.game-control { 
+    width: 100%;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    button {
+        width: 100%;
+        max-width: 220px;        
+    }    
+}
+
+.confirm {
+    background-color: #0a9396;
+}
+
+.cancel {
+    background-color: #bb3e03;
+}
+
+.reset {
+    background-color: #646464;
+}
